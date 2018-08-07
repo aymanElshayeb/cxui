@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "bosch-font";
+  src:url("../fonts/eot/bosch-font.eot");
+  src:url("../fonts/eot/bosch-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/woff/bosch-font.woff") format("woff"),
+    url("../fonts/ttf/bosch-font.ttf") format("truetype"),
+    url("../fonts/svg/bosch-font.svg#bosch-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "bosch-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "bosch-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bosch-ic-facebook:before {
+  content: "\61";
+}
+.icon-bosch-ic-googleplus:before {
+  content: "\62";
+}
+.icon-bosch-ic-instagram:before {
+  content: "\63";
+}
+.icon-bosch-ic-linkedin:before {
+  content: "\64";
+}
+.icon-bosch-ic-pin-it02:before {
+  content: "\65";
+}
+.icon-bosch-ic-tumblr:before {
+  content: "\66";
+}
+.icon-bosch-ic-twitter:before {
+  content: "\67";
+}
+.icon-bosch-ic-vine:before {
+  content: "\68";
+}
+.icon-bosch-ic-xing:before {
+  content: "\69";
+}
+.icon-bosch-ic-youtube:before {
+  content: "\6a";
+}
+.icon-bosch-ic-socialshare:before {
+  content: "\6b";
+}
+.icon-bosch-ic-snapchat:before {
+  content: "\6c";
+}
+.icon-bosch-ic-share-1:before {
+  content: "\6d";
+}
+.icon-arrow-link:before {
+  content: "\6e";
+}
+.icon-bosch-ic-back-last-page:before {
+  content: "\6f";
+}
+.icon-bosch-ic-close:before {
+  content: "\70";
+}
+.icon-bosch-ic-forward-link-next-page:before {
+  content: "\71";
+}
+.icon-bosch-ic-less-minimize:before {
+  content: "\72";
+}
+.icon-bosch-ic-maximize:before {
+  content: "\73";
+}
+.icon-bosch-ic-minimize:before {
+  content: "\74";
+}
+.icon-bosch-ic-more-maximize:before {
+  content: "\75";
+}
+.icon-bosch-ic-reset:before {
+  content: "\76";
+}
+.icon-bosch-ic-refresh:before {
+  content: "\77";
+}
+.icon-bosch-ic-rotation:before {
+  content: "\78";
+}
+.icon-bosch-ic-search:before {
+  content: "\79";
+}
+.icon-bosch-ic-see-less:before {
+  content: "\7a";
+}
+.icon-bosch-ic-zoom-out:before {
+  content: "\41";
+}
+.icon-bosch-ic-zoom-in:before {
+  content: "\42";
+}
+.icon-bosch-ic-up-down-black-48x48:before {
+  content: "\43";
+}
+.icon-bosch-ic-see-more:before {
+  content: "\44";
+}
+.icon-bosch-ic-wishlist:before {
+  content: "\45";
+}
+.icon-bosch-ic-switch-cart:before {
+  content: "\46";
+}
+.icon-bosch-ic-shoppingcart-black-48x48-01:before {
+  content: "\47";
+}
+.icon-bosch-ic-notification:before {
+  content: "\48";
+}
+.icon-bosch-ic-my-brand:before {
+  content: "\49";
+}
+.icon-bosch-ic-add-to-cart-black-48x48:before {
+  content: "\4a";
+}
+.icon-bosch-ic-calendar:before {
+  content: "\4b";
+}
+.icon-bosch-ic-customer-service:before {
+  content: "\4c";
+}
+.icon-bosch-ic-livechat-black-48x48:before {
+  content: "\4d";
+}
+.icon-bosch-ic-newsletter:before {
+  content: "\4e";
+}
+.icon-bosch-ic-appointment:before {
+  content: "\4f";
+}
+.icon-bosch-ic-add:before {
+  content: "\50";
+}
+.icon-bosch-ic-compare:before {
+  content: "\51";
+}
+.icon-bosch-ic-configuration:before {
+  content: "\52";
+}
+.icon-bosch-ic-delete:before {
+  content: "\53";
+}
+.icon-bosch-ic-download:before {
+  content: "\54";
+}
+.icon-bosch-ic-edit:before {
+  content: "\55";
+}
+.icon-bosch-ic-locate:before {
+  content: "\56";
+}
+.icon-bosch-ic-logout:before {
+  content: "\57";
+}
+.icon-bosch-ic-payment:before {
+  content: "\58";
+}
+.icon-bosch-ic-pdf:before {
+  content: "\59";
+}
+.icon-bosch-ic-switch:before {
+  content: "\5a";
+}
+.icon-bosch-ic-error-black-48x48:before {
+  content: "\30";
+}
+.icon-bosch-ic-problem:before {
+  content: "\31";
+}
+.icon-bosch-ic-success-black-48x48:before {
+  content: "\32";
+}
+.icon-bosch-ic-warning-black-48x48:before {
+  content: "\33";
+}
+.icon-bosch-ic-welcome:before {
+  content: "\34";
+}
+.icon-bosch-ic-watch-on:before {
+  content: "\35";
+}
+.icon-bosch-ic-watch-off:before {
+  content: "\36";
+}
+.icon-bosch-ic-summary:before {
+  content: "\37";
+}
+.icon-bosch-ic-store-locator:before {
+  content: "\38";
+}
+.icon-bosch-ic-start-video-play:before {
+  content: "\39";
+}
+.icon-bosch-ic-route:before {
+  content: "\21";
+}
+.icon-bosch-ic-registration:before {
+  content: "\22";
+}
+.icon-bosch-ic-print:before {
+  content: "\23";
+}
+.icon-bosch-ic-postal-code:before {
+  content: "\24";
+}
+.icon-bosch-ic-info-i:before {
+  content: "\25";
+}
+.icon-bosch-ic-promotion-bundle:before {
+  content: "\26";
+}

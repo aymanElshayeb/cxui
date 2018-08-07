@@ -1,0 +1,93 @@
+.secure-eco-image > img {
+	width: 100%;
+	height: auto
+}
+
+.secure-eco-desc .icon-bosch-ic-forward-link-next-page {
+	position: relative;
+}
+
+.secure-eco-desc {
+	font-weight: 200;
+}
+
+.secure-eco-desc .icon-bosch-ic-forward-link-next-page:before {
+	position: absolute;
+	top: 3px;
+	left: 100%;
+}
+
+.secure-eco-section {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.secure-eco-row {
+    margin-bottom: 60px;
+}
+
+.secure-eco-title-main {
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(to right, #006349, #78BE20);
+    /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(to right, #006349, #78BE20);
+    /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(to right, #006349, #78BE20);
+    /* For pre-releases of IE 10*/
+    background-image: linear-gradient(to right, #006349, #78BE20);
+    /* Standard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #000000\0;
+    background: none\0;
+}
+
+.secure-eco-title-content {
+    margin: auto;
+    max-width: 630px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 28px;
+}
+
+@media(min-width: 576px) {
+	.secure-eco-title {
+		margin-top: 10px;
+	}
+	.secure-eco-desc .secure-eco-title, .secure-eco-desc > p {
+		margin-bottom: 14px;
+	}
+	
+	.secure-eco-item:nth-child(even) .secure-eco-image {
+		order: 1;
+	}
+
+	.secure-eco-item:nth-child(even) .secure-eco-desc {
+		order: 2;
+	}
+	
+}
+
+@media(min-width: 768px) {
+	.secure-eco-title {
+		margin-top: 0;
+	}
+	
+	.secure-eco-desc .secure-eco-title, .secure-eco-desc > p {
+		margin-bottom: 24px;
+	}
+	
+	.secure-eco-item:nth-child(even) .secure-eco-image {
+		order: 2;
+	}
+
+	.secure-eco-item:nth-child(even) .secure-eco-desc {
+		order: 1;
+	}
+}

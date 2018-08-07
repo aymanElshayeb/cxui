@@ -1,0 +1,55 @@
+.teaser-image > img {
+	width: 100%;
+	height: auto
+}
+
+.teaser-desc .icon-bosch-ic-forward-link-next-page {
+	position: relative;
+}
+
+.teaser-desc .icon-bosch-ic-forward-link-next-page:before {
+	position: absolute;
+	top: 3px;
+	left: 100%;
+}
+
+@media(min-width: 576px) {
+	.teaser-title {
+		margin-top: 10px;
+	}
+	.teaser-desc .teaser-title, .teaser-desc > p {
+		margin-bottom: 14px;
+	}
+	
+	.teaser-item:nth-child(even) .teaser-image {
+		order: 1;
+	}
+
+	.teaser-item:nth-child(even) .teaser-desc {
+		order: 2;
+	}
+	
+}
+
+@media(min-width: 768px) {
+	.teaser-title {
+		margin-top: 0;
+	}
+	
+	.teaser-desc .teaser-title, .teaser-desc > p {
+		margin-bottom: 24px;
+	}
+	
+	.teaser-item:nth-child(even) .teaser-image {
+		order: 2;
+	}
+
+	.teaser-item:nth-child(even) .teaser-desc {
+		order: 1;
+	}
+}
+
+
+
+
+
