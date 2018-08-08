@@ -16,8 +16,8 @@ export class CmsServiceService {
 
   getContent(url:string):Observable<string> {
 
-    return this.http.get<any>(url,{ responseType:"text"  });
-  //  return this.http.get<string>(url);
+    return this.http.get<any>(url,{ responseType:'text'  });
+  // return this.http.get<string>(url);
   }
 
 }
